@@ -22,7 +22,7 @@ public class Consumer implements WorkHandler<Order> {
         count.incrementAndGet();
     }
 
-    public int getCount() {
+    public static int getCount() {
         return count.get();
     }
 }
